@@ -1,4 +1,6 @@
 var glastoModule = (function () {
+    'use strict';
+    
     var people = JSON.parse(localStorage.getItem("people")) || [],
         i = 0;
             
@@ -18,5 +20,5 @@ var glastoModule = (function () {
             });
         }                                    
         localStorage.setItem("people", JSON.stringify(people));
-    }
+    };
 }());
