@@ -1,4 +1,4 @@
 glastogadget
 ============
 
-GlastoGadget
+Simple tool to speed up your Glastonbury payment
